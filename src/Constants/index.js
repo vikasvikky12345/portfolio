@@ -51,6 +51,7 @@ export const PROJECTS = [
       "A fully functional e-commerce website with features like product listing, shopping cart",
     technologies: ["React.js", "Javascript", "TailwindCSS", "Framer-motion"],
     github: "https://github.com/vikasvikky12345/ecomerseappStatic",
+    deployed: "https://ecomerseapp-static.vercel.app/",
   },
   {
     title: "Food Ordering Website",
@@ -59,6 +60,7 @@ export const PROJECTS = [
       "A fully functional food ordering website with features like product listing, shopping cart",
     technologies: ["React.js", "Javascript", "TailwindCSS", "Framer-motion"],
     github: "https://github.com/vikasvikky12345/foodProject",
+    deployed: "https://food-project-wine.vercel.app/",
   },
   {
     title: "Chat-App",
@@ -75,6 +77,7 @@ export const PROJECTS = [
       "Socket.io",
     ],
     github: "https://github.com/vikasvikky12345/chat",
+    deployed: "https://chat-app-vikas.vercel.app/",
   },
   {
     title: "Pinterest Clone",

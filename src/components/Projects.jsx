@@ -30,7 +30,12 @@ const Projects = () => {
                             className="w-full lg:w-3/4 max-w-full">
                             <h6 className="mb-2 font-semibold">{project.title}</h6>
                             <p className="mb-4 text-neutral-400">{project.description}</p>
-                            <a href={project.github} target="_blank" className="text-blue-500 mb-2">View on GitHub</a>
+                            <div className="flex items-center gap-4">
+                                <a href={project.github} target="_blank" className="text-blue-500 mb-2">View on GitHub</a>
+                            <a href={project.deployed} target="_blank" className="text-blue-500 mb-2">View on Deployed</a>
+
+                            </div>
+                            
                             <br/>
                             {
                                 project.technologies.map((tech,index)=>{
